@@ -534,14 +534,7 @@ const Home = (props: HomeProps) => {
                 <WalletContainer>
                     <Logo><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
-                    <Menu>
-                        <li><a href="http://localhost:3000/" target="_blank" rel="noopener noreferrer">Author</a>
-                        </li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Collection</a></li>
-                        <li><a href="http://localhost:3000/" target="_blank"
-                               rel="noopener noreferrer">Contacts</a></li>
-                    </Menu>
+                   
                     <Wallet>
                         {wallet ?
                             <WalletAmount>{(balance || 0).toLocaleString()} SOL<ConnectButton/></WalletAmount> :
@@ -638,23 +631,41 @@ const Home = (props: HomeProps) => {
                         </NFT>
                     </DesContainer>
                     <DesContainer>
-                        <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>About the author</GoldTitle></LogoAligner>
-                            <p>My name is Natalia Shpileva.</p>
-                            <p>I was born in Russia, I live in Spain in a beautiful country of bulls.</p>
-                            <p>I want to earn a dream.</p>
+                    <Des elevation={2}>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ROAD MAP</GoldTitle></LogoAligner>
+                            <p>1. The release of 10K bulls on the Solan blockchain.</p>
+                            <p>2. Monthly issue :
+                               4 Bulls in the theme "for the spite of the day". For example, in April, the Tyrants of the 21st century will come out.
+                               4 bulls in the style of paintings by famous artists.
+                               1 print with bulls. 
+                              12 funny video shots with bulls.</p>
+                            <p>3. At the end of 2022, a large graffiti will appear in the art space in Valencia.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>About the collection</GoldTitle></LogoAligner>
-                            <p>Sly bulls for touching, fertilizing the soil and creating building material.</p>
-                            <p>My bulls are unique, they really have something in them.</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ABOUT THE AUTHOR</GoldTitle></LogoAligner>
+                            <p>The project was created by an artist who had been drawing at the table for 15 years and did not have the courage to show it.</p>
+                            <p>She was forced to emigrate to Spain and look for a new way of income.</p>
+                            <p>The collection will directly benefit the family of this artist and will help to support a newborn daughter, a 15-year-old son, as well as 2 cats and dogs.</p>
+                            <p>And instill a love for cute bulls who love to play, sing and have fun.</p>
+                            
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>ABOUT THE COLLECTION</GoldTitle></LogoAligner>
+                            <p>Sly Bull are strong and fair animals in the metaverse that cut grass and process it into building material.</p>
+                            <p>They also stand up for the weak and bring creative energy into the world.</p>
                             <p>Take them to your collection while they're still there.</p>
                         </Des>
                         <Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>Contacts</GoldTitle></LogoAligner>
-                            <p>https://www.instagram.com/slybull22/?hl=undefined</p>
-                            <p>https://discord.gg/TcmyWY9D</p>
-                            <p> </p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>WHY BULLS?</GoldTitle></LogoAligner>
+                            <p>This is a strong, brave and hardy animal.</p>
+                            <p>A symbol of balance between darkness and light.</p>
+                            <p>Brings energy to people for positive changes.</p>
+                        </Des>
+                        <Des elevation={2}>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>SOCIALS</GoldTitle></LogoAligner>
+                            <a href="https://www.instagram.com/slybull22/?hl=undefined">Instagram</a><br/>
+                            <a href="https://discord.gg/TcmyWY9D">Discord</a><br/>
+                            <a href="https://twitter.com/slybull22">Twitter</a><br/>
                         </Des>
                     </DesContainer>
                 </MintContainer>

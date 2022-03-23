@@ -1,12 +1,15 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: #72f1fa;
-  --card-background-color: #2cb983;
-  --card-background-lighter-color: #f9f3fa;
-  --main-text-color:#111111;
-  --title-text-color:#f8f8f8;
+  --main-background-color: #a808ad;
+  --card-background-color: #38f708ef;
+  --card-background-lighter-color: #dd88ec;
+  --main-text-color:#f5eded;
+  --title-text-color:#fdfdfd;
 }
 
+a{color: #f8f8f8; text-decoration: none;
+
+}
 body{
   background-color:var(--main-background-color);
   font-family: 'Patrick Hand', cursive;
